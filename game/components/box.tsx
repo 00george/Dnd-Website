@@ -1,5 +1,6 @@
 import { Object3DNode, useFrame } from "@react-three/fiber"
 import { useRef, useState } from "react"
+import { Mesh } from "three/src/objects/Mesh"
 
 export default function Box(props : Object3DNode<any, any>) {
     // This reference gives us direct access to the THREE.Mesh object
