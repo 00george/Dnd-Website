@@ -2,17 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+#canvas-container {
+  z-index: 900;
+  position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+  width: 50%;
+  height: 50%
+  
+}
+
 :root {
-  --foreground-rgb: 0, 0, 0;
+  --foreground-rgb: 50, 50, 50;
   --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-end-rgb: 112, 128, 144;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: 112, 112, 112;
+    --background-end-rgb: 112, 112, 112;
   }
 }
 
