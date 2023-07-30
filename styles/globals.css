@@ -14,26 +14,17 @@
   
 }
 
-:root {
-  --foreground-rgb: 50, 50, 50;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 112, 128, 144;
+/*
+main,
+html,
+body,
+body>div:first-child,
+div#__next,
+div#__next>div {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  @apply bg-slate-900 text-slate-400
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 112, 112, 112;
-    --background-end-rgb: 112, 112, 112;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+*/
